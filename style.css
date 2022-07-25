@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/* font-family: 'Inter', sans-serif; */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* header */
+
+.header {
+  margin: 50px 0 50px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 265px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* or 157% */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.header__btnlang {
+  display: flex;
+  align-items: center;
+}
+
+.header__btn {
+  padding: 15px 62px;
+  background-color: #ffff;
+  color: black;
+  border: 1px solid #0194c7;
+  border-radius: 27px;
+
+  text-decoration: none;
+
+  transition: 0.2s all;
+}
+
+.header__lang:hover {
+  color: #0194c7;
+
+  transition: 0.2s all;
+}
+
+.header__btn:hover {
+  background-color: #0194c7;
+  color: #fff;
+}
+
+.header__lang {
+  text-decoration: none;
+
+  margin-left: 60px;
+}
+
+.header__btnlang {
+  text-decoration: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.header__btnlang {
+  text-decoration: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+/* .intro */
+
+.intro__bac {
+  width: 100%;
+
+  height: 75px;
+
+  background-color: #0194c7;
+}
+
+.intro__nav {
+  width: 100%;
+  height: 75px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro__nav a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 22px;
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+/* arhive */
+
+.arhive {
+  width: 100%;
+  min-height: 66px;
+
+  background-color: #ececec;
+
+  margin-bottom: 43px;
+}
+
+.arhive__inner {
+  display: flex;
+
+  padding-top: 20px;
+}
+
+.arhive__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.arhive__btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+
+  letter-spacing: 0.03em;
+
+  color: #0194c7;
+}
+
+/* book */
+
+.book__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23.5px;
+  line-height: 22px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+
+.book__title::after {
+  content: "";
+  width: 77px;
+  height: 1px;
+  display: block;
+
+  border-bottom: 3px solid #2eafdc;
+
+  padding-top: 31px;
+  margin-bottom: 78px;
+}
+
+.book__block {
+  width: 100%;
+  height: 47px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #2eafdc;
+
+  margin-bottom: 61px;
+}
+
+.book__block img {
+  margin-right: 17px;
+  margin-left: 20px;
+}
+
+.book__data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  /* or 127% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+/* book */
+
+.book__inner {
+  margin-bottom: 50px;
+}
+
+.bottom {
+  margin-bottom: 111px;
+}
+
+.book__grid {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.book__box {
+  width: 100%;
+  max-width: 220px;
+  min-height: 359px;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.book__img {
+  width: 143px;
+
+  display: block;
+
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding-top: 23px;
+}
+
+.book__number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-left: 36px;
+}
+
+.book__number::after {
+  content: "";
+  width: 77px;
+  display: block;
+
+  border-bottom: 3px solid #2eafdc;
+
+  padding-top: 14px;
+  margin-bottom: 17px;
+}
+
+.book__year {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+
+  margin-left: 36px;
+}
